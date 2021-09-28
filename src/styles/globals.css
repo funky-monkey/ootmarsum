@@ -6,4 +6,17 @@ html,
 body {
   width: 100vw;
   height: 100vh;
+  font-size: 22px;
+}
+
+@layer components {
+  .link {
+    @apply text-red-400 underline;
+  }
+  .paragraph {
+    @apply mb-4;
+  }
+  .subtitle {
+    @apply mb-4 underline text-xl;
+  }
 }
