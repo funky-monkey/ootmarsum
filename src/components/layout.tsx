@@ -1,6 +1,12 @@
 import { ReactNode } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import {
+  HomeIcon,
+  DocumentReportIcon,
+  CalculatorIcon,
+  MapIcon,
+} from '@heroicons/react/solid'
 import config from '../config'
 
 const { title: siteTitle, description, image } = config
@@ -34,19 +40,37 @@ const Layout = ({ children, title }: Props) => (
       <meta property="og:image:width" content="400" />
       <meta property="og:image:height" content="400" />
     </Head>
-    <section className="container antialiased min-w-full min-h-screen bg-white text-black dark:bg-black dark:text-white px-2 md:px-8">
-      <header className="flex flex-row flex-wrap w-full justify-around pb-2 border-b-2 border-black dark:border-white">
+    <section className="container antialiased min-w-full min-h-screen bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-100 px-2 md:px-8">
+      <header className="control border-black dark:border-white border-b-2">
         <Link href={`/`}>
-          <a className="link">Home</a>
+          <a className="btn sm:rounded-r-none">
+            <HomeIcon className="w-4" />
+            Home
+          </a>
         </Link>
         <Link href={`/ootmarsum`}>
-          <a className="link">Ootmarsum</a>
+          <a className="btn sm:rounded-l-none sm:rounded-r-none">
+            <MapIcon className="w-4" />
+            Ootmarsum
+          </a>
         </Link>
         <Link href={`/springendal`}>
-          <a className="link">Het Springendal</a>
+          <a className="btn sm:rounded-l-none sm:rounded-r-none">
+            <MapIcon className="w-4" />
+            Het Springendal
+          </a>
         </Link>
         <Link href={`/handleiding`}>
-          <a className="link">Handleiding</a>
+          <a className="btn sm:rounded-l-none sm:rounded-r-none">
+            <DocumentReportIcon className="w-4" />
+            Handleiding
+          </a>
+        </Link>
+        <Link href={`/rekenhulp`}>
+          <a className="btn sm:rounded-l-none">
+            <CalculatorIcon className="w-4" />
+            Rekenhulp
+          </a>
         </Link>
       </header>
       <main

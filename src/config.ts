@@ -51,7 +51,7 @@ const config: ConfigType = {
     tax: 1,
     adult: 2.4,
     kid: 1.9,
-    rent: 75,
+    rent: 65,
     deposit: 100,
   },
   bankAccount: 'NL68 KNAB 0406 8591 67',
