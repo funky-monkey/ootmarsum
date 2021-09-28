@@ -11,8 +11,8 @@ const Handleiding = () => (
     <figure>
       <Image
         src={`/media/roosjp.webp`}
-        width={480}
-        height={322}
+        width={1012 / 2}
+        height={768 / 2}
         alt="Roos & Jan Paul"
       />
     </figure>
