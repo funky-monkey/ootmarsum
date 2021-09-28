@@ -35,7 +35,7 @@ const Layout = ({ children, title }: Props) => (
       <meta property="og:image:height" content="400" />
     </Head>
     <section className="container antialiased min-w-full min-h-screen bg-white text-black dark:bg-black dark:text-white px-2 md:px-8">
-      <header className="flex flex-row w-full justify-around">
+      <header className="flex flex-row flex-wrap w-full justify-around pb-2 border-b-2 border-black dark:border-white">
         <Link href={`/`}>
           <a className="link">Home</a>
         </Link>
