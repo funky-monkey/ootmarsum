@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Layout } from '../components'
+import { Layout } from '@/components'
 
 const Springendal = () => (
   <Layout title="Het Springendal">

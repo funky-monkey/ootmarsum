@@ -7,7 +7,7 @@ import {
   CalculatorIcon,
   MapIcon,
 } from '@heroicons/react/solid'
-import config from '../config'
+import config from '@/config'
 
 const { title: siteTitle, description, image } = config
 

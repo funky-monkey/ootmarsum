@@ -1,7 +1,7 @@
 import { useState, useEffect, ChangeEvent } from 'react'
-import { Layout } from '../components'
-import { presentPrice } from '../utils'
-import config from '../config'
+import { Layout } from '@/components'
+import { presentPrice } from '@/utils'
+import config from '@/config'
 
 const { price, bankAccount } = config
 const minNights = 2

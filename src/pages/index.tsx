@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Layout } from '../components'
-import { presentPrice } from '../utils'
-import config from '../config'
+import { Layout } from '@/components'
+import { presentPrice } from '@/utils'
+import config from '@/config'
 
 const { price } = config
 
