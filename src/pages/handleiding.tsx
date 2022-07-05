@@ -8,14 +8,6 @@ const { price } = config
 const Handleiding = () => (
   <Layout title="Handleiding">
     <h6 className="subtitle">Handleiding</h6>
-    <figure>
-      <Image
-        src={`/media/roosjp.webp`}
-        width={1012 / 2}
-        height={768 / 2}
-        alt="Roos & Jan Paul"
-      />
-    </figure>
     <p className="paragraph">
       Welkom in ons vakantiehuisje! Hier kan je lezen wat je (eventueel) moet
       doen bij aankomst, en wat je (bij voorkeur) kan doen bij het verlaten van
